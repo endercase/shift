@@ -78,6 +78,17 @@ module.exports = {
 				multisignature: 50000000, // 0.5
 				dapp: 2500000000	//25
 			}
+		},
+		{
+			height: 1,626,337,
+			fees: {
+				send: 330000,		          // 0.0033
+				vote: 3300000,	                 // 0.033
+				secondsignature: 10000000,	// 0.1
+				delegate: 6000000000,	       // 60
+				multisignature: 50000000,     // 0.5
+				dapp: 2500000000	     //25
+			}
 		}
 	],
 	fixedPoint: Math.pow(10, 8),
